@@ -2,12 +2,12 @@
 To design and implement a serverless ETL pipeline that extracts data from an on-premise database, transforms it, and loads it into Google BigQuery for further analysis. The pipeline will use Google Cloud Functions to handle the ETL processes in a scalable and efficient manner.
 
 Key Components
-  -Google Cloud Storage (GCS)
-  -Google Cloud Functions
-  -Google BigQuery
-  -Cloud Scheduler
-  -Pub/Sub
-  -IAM for security and permissions
+-Google Cloud Storage (GCS)
+-Google Cloud Functions
+-Google BigQuery
+-Cloud Scheduler
+-Pub/Sub
+-IAM for security and permissions
 
 Workflow Steps:
 
