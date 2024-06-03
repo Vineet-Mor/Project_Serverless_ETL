@@ -11,14 +11,14 @@ Key Components
 
 Workflow Steps:
 
-1. Project Initiation:
-   I. Objectives: Automate the ETL process to ensure timely and accurate data loading into BigQuery.
-   II. Stakeholders: Data engineers, data analysts, data scientists, project managers.
+1. Project Initiation:<BR>
+    -Objectives: Automate the ETL process to ensure timely and accurate data loading into BigQuery.
+    -Stakeholders: Data engineers, data analysts, data scientists, project managers.
    
 2. Set Up Google Cloud Environment
-   I. Create a Google Cloud Project: Set up a new project in Google Cloud.
-   II. Required APIs: Enable Cloud Functions, Cloud Storage, BigQuery, Pub/Sub, and Cloud Scheduler APIs.
-   III. IAM Roles: Define and assign roles for different team members to ensure proper access control.
+   -Create a Google Cloud Project: Set up a new project in Google Cloud.
+   -Required APIs: Enable Cloud Functions, Cloud Storage, BigQuery, Pub/Sub, and Cloud Scheduler APIs.
+   -IAM Roles: Define and assign roles for different team members to ensure proper access control.
    
 3. Data Extraction
    -Trigger: Detect changes in the on-premise database or schedule regular data extracts.
