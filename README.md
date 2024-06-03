@@ -24,7 +24,7 @@ Workflow Steps:
    -Trigger: Detect changes in the on-premise database or schedule regular data extracts.<BR>
    -Action: Extract data from the on-premise system and upload it to a GCS bucket.<BR>
    -Cloud Function:<BR>
-        &NBSP*Function 1: extract_data_to_gcs<BR>
+        *Function 1: extract_data_to_gcs<BR>
         *Trigger: Cloud Scheduler<BR>
         *Action: Connect to the on-premise database, extract data, and upload it to GCS.<BR>
    
